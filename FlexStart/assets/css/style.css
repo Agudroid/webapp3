@@ -2429,6 +2429,11 @@ header a:hover:after {
   float: right;
 }
 
+h1 .like{
+  float: none;
+  padding-left:5px;
+}
+
 .subtitle {
   padding-top: 25px;
 }
@@ -2531,3 +2536,6 @@ header a:hover:after {
     margin-top: 25px;
   }
 }
+
+
+

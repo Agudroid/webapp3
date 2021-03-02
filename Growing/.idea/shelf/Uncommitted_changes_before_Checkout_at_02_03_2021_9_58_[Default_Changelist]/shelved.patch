@@ -1,0 +1,272 @@
+Index: ../FlexStart/.idea/vcs.xml
+===================================================================
+diff --git a/../FlexStart/.idea/vcs.xml b/../FlexStart/.idea/vcs.xml
+deleted file mode 100644
+--- a/../FlexStart/.idea/vcs.xml	(revision f5b97b646f160b6988f50e125d17f11bfcbcd31b)
++++ /dev/null	(revision f5b97b646f160b6988f50e125d17f11bfcbcd31b)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/Growing.iml
+===================================================================
+diff --git a/.idea/Growing.iml b/.idea/Growing.iml
+deleted file mode 100644
+--- a/.idea/Growing.iml	(revision f5b97b646f160b6988f50e125d17f11bfcbcd31b)
++++ /dev/null	(revision f5b97b646f160b6988f50e125d17f11bfcbcd31b)
+@@ -1,12 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="WEB_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/temp" />
+-      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+-      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/FlexStart.iml\" filepath=\"$PROJECT_DIR$/.idea/Growing.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision f5b97b646f160b6988f50e125d17f11bfcbcd31b)
++++ b/.idea/modules.xml	(date 1614675388913)
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/FlexStart.iml" filepath="$PROJECT_DIR$/.idea/Growing.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/FlexStart.iml" filepath="$PROJECT_DIR$/.idea/FlexStart.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../FlexStart/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"97582391-ec8e-442b-8bbc-c27b96edc273\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$/..\" value=\"Stage-2\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1p9ZRZBf0yBCvbakpyHyujRDB1t\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"97582391-ec8e-442b-8bbc-c27b96edc273\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1614597260120</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1614597260120</updated>\r\n      <workItem from=\"1614597261277\" duration=\"54000\" />\r\n      <workItem from=\"1614597316776\" duration=\"650000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../FlexStart/.idea/workspace.xml b/../FlexStart/.idea/workspace.xml
+--- a/../FlexStart/.idea/workspace.xml	(revision f5b97b646f160b6988f50e125d17f11bfcbcd31b)
++++ b/../FlexStart/.idea/workspace.xml	(date 1614675129835)
+@@ -1,7 +1,159 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="97582391-ec8e-442b-8bbc-c27b96edc273" name="Default Changelist" comment="" />
++    <list default="true" id="f9efaf5f-c415-481e-a8e1-da7830eda43e" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/.idea/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/.idea/Growing.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/.idea/modules.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/.idea/vcs.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/Readme.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/mvnw" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/mvnw.cmd" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/pom.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/src/main/java/es/codeurjc/growing/GrowingApplication.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/src/main/resources/application.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/backend/src/test/java/es/codeurjc/growing/GrowingApplicationTests.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/AboutUs.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/Values/values-1.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/Values/values-2.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/Values/values-3.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/css/category.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/css/editProfileStyle.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/css/getStarted.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/css/profileStylesheet.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/css/style.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/about.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/apple-touch-icon.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/arbolitoEjemplo.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/background.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/favicon.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/features-2.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/features-3.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/features.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/hero-bg.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/hero-img.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/hero-img.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/level/EmptyHeart.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/level/FullHeart.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/level/greenFlag.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/level/redFlag.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/level/yellowFlag.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/log.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/logo.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/AboutUs.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/adminProfile.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/categories.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/editProfile.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/explore.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/index.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/loginRegisterSignIn.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/loginRegisterSignUp.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/mentalHealth.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/portfolio/profile.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/progress/fase1.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/progress/fase2.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/progress/fase3.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/progress/fase4.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/progress/fase5.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/register.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/spinner.gif" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/team-shape.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/team/team-1.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/team/team-2.PNG" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/team/team-3.PNG" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/img/team/team-4.PNG" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/js/app.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/js/bootstrap.min.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/js/getStarted.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/js/graphics.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/js/jquery.min.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/js/main.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/aos/aos.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/aos/aos.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap-icons/bootstrap-icons.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap-icons/bootstrap-icons.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap-icons/index.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/glightbox/css/glightbox.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/glightbox/css/glightbox.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/glightbox/js/glightbox.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/glightbox/js/glightbox.min.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/isotope-layout/isotope.pkgd.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/isotope-layout/isotope.pkgd.min.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/purecounter/purecounter.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/remixicon/remixicon.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/remixicon/remixicon.eot" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/remixicon/remixicon.less" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/remixicon/remixicon.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/remixicon/remixicon.symbol.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/remixicon/remixicon.ttf" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/remixicon/remixicon.woff" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/remixicon/remixicon.woff2" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/swiper/swiper-bundle.min.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/assets/vendor/swiper/swiper-bundle.min.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/categories.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/editProfile.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/explore.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/getStarted.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/images/growingLogo.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/images/user-circle-regular.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/index.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/mentalHealth.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/profile.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Growing/frontend/profileAdmin.html" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -10,45 +162,14 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$/.." value="Stage-2" />
++        <entry key="$PROJECT_DIR$/.." value="Stage-1" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+   </component>
+-  <component name="ProjectId" id="1p9ZRZBf0yBCvbakpyHyujRDB1t" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="node.js.detected.package.eslint" value="true" />
+-    <property name="node.js.detected.package.tslint" value="true" />
+-    <property name="node.js.path.for.package.eslint" value="project" />
+-    <property name="node.js.path.for.package.tslint" value="project" />
+-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+-    <property name="vue.rearranger.settings.migration" value="true" />
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="97582391-ec8e-442b-8bbc-c27b96edc273" name="Default Changelist" comment="" />
+-      <created>1614597260120</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1614597260120</updated>
+-      <workItem from="1614597261277" duration="54000" />
+-      <workItem from="1614597316776" duration="650000" />
+-    </task>
+     <servers />
+-  </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">

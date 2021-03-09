@@ -1,9 +1,10 @@
-package es.dawequipo3.growing;
+package es.dawequipo3.growing.controller;
 
 import es.dawequipo3.growing.model.Category;
 import es.dawequipo3.growing.model.Plan;
 import es.dawequipo3.growing.repository.CategoryRepository;
 import es.dawequipo3.growing.repository.PlanRepository;
+import es.dawequipo3.growing.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,6 +24,8 @@ public class GrowingController {
     @Autowired
     private PlanRepository planRepository;
 
+    @Autowired
+    private UserRepository userRepository;
 
 
 
@@ -60,7 +63,6 @@ public class GrowingController {
 
         planRepository.save(plan1);
         planRepository.save(plan2);
-
 
     }
 
@@ -116,4 +118,6 @@ public class GrowingController {
     public String serverError(){
         return "500";
     }
+
+
 }

@@ -11,6 +11,7 @@
     <!-- Own CSS -->
     <link rel="stylesheet" href="assets/css/getStarted.css"/>
 
+
 </head>
 <body>
 
@@ -42,7 +43,7 @@
         <div class="forms-container">
             <div class="signin-signup">
                 <!-- Sign IN-->
-                <form action="#" class="sign-in-form">
+                <form action="/getStarted/login" method="POST" class="sign-in-form">
                     <h2 class="title">Sign in</h2>
                     <!--Email-->
                     <div class="input-field">
@@ -56,38 +57,35 @@
                     </div>
                     <input type="submit" value="Login" class="btn solid"/>
                 </form>
+
+
                 <!-- Sign UP-->
-                <form action="#" class="sign-up-form">
+                <form method="POST" action="/getStarted/signUp" class="sign-up-form">
                     <h2 class="title">Sign up</h2>
-                    <!-- Username -->
-                    <div class="input-field">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username"/>
-                    </div>
                     <!-- Name-->
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Name"/>
+                        <input type="text" placeholder="Name" name="name"/>
                     </div>
                     <!-- Surname -->
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Surname"/>
+                        <input type="text" placeholder="Surname" name="surname"/>
                     </div>
                     <!-- Email -->
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email"/>
+                        <input type="email" placeholder="Email" name="email"/>
                     </div>
                     <!-- Password -->
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password"/>
+                        <input type="password" placeholder="Password" name="password"/>
                     </div>
                     <!-- Confirm Password -->
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Confirm Password"/>
+                        <input type="password" placeholder="Confirm Password" name="confirmPassword"/>
                     </div>
                     <input type="submit" class="btn" value="Sign up"/>
                 </form>
@@ -124,4 +122,5 @@
 </section>
 
 <!-- ======= Footer ======= -->
+<script src="/assets/js/getStarted.js"></script>
 {{>footer}}

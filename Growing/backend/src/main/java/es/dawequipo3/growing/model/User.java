@@ -6,34 +6,34 @@ import java.util.List;
 
 @Entity
 public class User {
+
     @Id
     private String email;
-    private String username;
+
+    @Column(nullable = false)
+    private String userName;
+
+    @Column(nullable = false)
+    private String Surname;
+
+    @Column(nullable = false)
     private String password;
-    private String photo_url;
 
-    //Basic relationships
-    @OneToMany(cascade = CascadeType.ALL)
-    private List<Tree> tree;
 
-    //Relational relationships
-    @OneToMany(cascade = CascadeType.ALL)
-    private List<Category> fav_categorie;
+    private String confirmPassword;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    private List<Plan> liked_plans;
-
-    @ManyToMany(cascade = CascadeType.ALL)
-    private List<Completed_plan> completed_plans;
+    @ElementCollection(fetch = FetchType.EAGER)
+    private List<String> roles;
 
 
 
-    public User(String email, String username, String password, String photo_url) {
+    public User(String email, String username, String password, String repeatPassword, String... roles) {
         super();
         this.email = email;
-        this.username = username;
+        this.userName = username;
+        if (password.equals(repeatPassword))
         this.password = password;
-        this.photo_url = photo_url;
+        this.roles = List.of(roles);
     }
 
     public User() {
@@ -49,11 +49,11 @@ public class User {
     }
 
     public String getUsername() {
-        return username;
+        return userName;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.userName = username;
     }
 
     public String getPassword() {
@@ -64,11 +64,30 @@ public class User {
         this.password = password;
     }
 
-    public String getPhoto_url() {
-        return photo_url;
+    public List<String> getRoles() {
+        return roles;
     }
 
-    public void setPhoto_url(String photo_url) {
-        this.photo_url = photo_url;
+    public void setRoles(List<String> roles) {
+        this.roles = roles;
     }
+
+
+    public String getSurname() {
+        return Surname;
+    }
+
+    public void setSurname(String surname) {
+        Surname = surname;
+    }
+
+    public String getConfirmPassword() {
+        return confirmPassword;
+    }
+
+    public void setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
+    }
+
+
 }

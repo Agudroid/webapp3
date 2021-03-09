@@ -5,18 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83c00b7c-64de-4c2c-a7b9-d0498b57839c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/NoSuchElementExceptionCA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/security/RepositoryUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/keystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/GrowingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/GrowingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/repository/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/repository/TreeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/repository/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/DataBaseUsage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/GrowingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/controller/GrowingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/model/Plan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/model/Plan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/model/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/model/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/getStarted.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/getStarted.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,21 +87,11 @@
       <recent name="C:\Users\jadam\Documents\GitHub\webapp3\Growing\backend" />
       <recent name="C:\Users\jadam\Documents\GitHub\webapp3\Growing\backend\.idea\libraries" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jadam\Documents\GitHub\webapp3\Growing\backend\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GrowingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="es.dawequipo3.growing.GrowingApplication" />
@@ -114,6 +113,7 @@
       <workItem from="1614888078631" duration="356000" />
       <workItem from="1614894110534" duration="3076000" />
       <workItem from="1614983928011" duration="3762000" />
+      <workItem from="1615327489890" duration="1558000" />
     </task>
     <servers />
   </component>
@@ -136,8 +136,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/GrowingController.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/main/java/es/dawequipo3/growing/controller/GrowingController.java</url>
+          <line>32</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

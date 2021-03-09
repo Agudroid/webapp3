@@ -18,6 +18,10 @@ public class Tree {
         this.last_update = last_update;
     }
 
+    public Tree() {
+
+    }
+
     public int getHeight() {
         return Height;
     }
